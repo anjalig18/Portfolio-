@@ -430,14 +430,25 @@ span{
     margin-top: 8rem;
  }
  .about-img img{
-    width: 100vw;
+    width: 100%vw;
     margin-top: 4rem;
  }
+}
+@media (max-width:550px) {
+    .about-img img{
+        width: 40%vw;
+        margin-top: 4rem;
+     }  
 }
 @media (max-width:450px) {
     html{
         font-size: 50%;
     }
+    .about-img img{
+        width: 40%;
+        margin-top: 4rem;
+        margin-left: 4rem;
+     }
     .contact form  .input-box input{
         width: 100%;
     }
